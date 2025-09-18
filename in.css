@@ -1,0 +1,195 @@
+/* #uploadSection {
+      display: none;
+    }
+    /* Active section दिखेगा */
+    /* .active-section {
+      display: block !important;
+    } */
+    /* Hidden section */
+    /* .hidden-section {
+      display: none !important;
+    } */
+
+
+/* .student{
+  position: absolute;
+  font-size: 100px;
+} */
+
+/* .hover{
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  box-shadow: 10px 20px 40px 50px rgb(245, 240, 240);
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  top: 200px;
+  left: 2000px;
+} */
+
+/* .sumit{
+  right: 200px;
+  top: 100px;
+  
+} */
+
+/* .text{
+  position: absolute;
+  width: 90%;
+  left: 60px;
+  top: 350px;
+  font-size: 80px;
+  border-radius: 10px;
+} */
+
+/* .mail{
+  position: absolute;
+  left: 60px;
+  top: 270px;
+  font-size: 70px;
+  
+} */
+
+
+
+/* .textbox{
+  position: absolute;
+  width: 90%;
+  right: 100px;
+  font-size: 80px;
+  top: 600px;
+  left: 60px;
+  border-radius: 10px;
+} */
+/* .p{
+  position: absolute;
+  left: 60px;
+  top: 510px;
+  font-size: 70px;
+} */
+
+.register{
+  position: absolute;
+  font-size: 100px;
+  top: 800px;
+  left: 80px;
+  border-radius: 10px;
+}
+
+
+#uploadSection {
+  display: none;
+}
+
+/* Active section दिखेगा */
+.active-section {
+  display: block !important;
+}
+
+/* Hidden section */
+.hidden-section {
+  display: none !important;
+}
+
+/* Headings */
+.student {
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Box */
+.hover {
+  position: relative;
+  width: 150%;
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 40px;
+  box-shadow: 10px 20px 40px rgba(246, 2, 2, 0.2);
+  border-radius: 25px;
+  background: #fff; 
+   border: 10px solid rgb(152, 150, 152);
+  border-top-color: rgb(244, 7, 244);
+  border-bottom-color: rgb(7, 7, 240);
+  border-left-color: rgb(247, 4, 4);
+  border-right-color: rgb(253, 253, 4);
+  animation: rotedborder 5s linear infinite;
+}
+
+@keyframes rotedborder{
+  0%{border-color: purple;}
+  40%{border-color: blue;}
+  70%{border-color: rgb(245, 5, 5);}
+  100%{border-color: rgb(242, 242, 10);}
+}
+
+
+
+/* Each input group */
+.sumit {
+  margin-bottom: 100px;
+}
+
+/* Labels */
+.mail, .p {
+  display: block;
+  font-size: 100px;
+  margin-bottom: 10px;
+}
+
+/* Inputs */
+.text, .textbox {
+  width: 100%;
+  font-size: 100px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+}
+
+.login{
+  position: relative;
+  font-size: 80px;
+  margin: 100px;
+  padding: 50px 60px;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(1, 1, 232);
+}
+
+#loginbutton{
+  background-color: red;
+}
+
+
+
+
+
+
+
+.mk{
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 100px;
+  box-shadow: 10px 20px 40px rgb(241, 1, 193);
+  font-size: 150px;
+ display: flex;
+ flex-direction: column;
+ color: blue;
+ border-radius: 20px;
+ gap: 30px;
+  
+}
+
+.m{
+  font-size: 99px;
+  margin: 30px;
+
+}
+#ku{
+  color: white;
+  background-color: blue;
+}
+

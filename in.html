@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="in.css">
+</head>
+<body>
+  <div id="loginSection">
+    <div class="hover">
+      <h1 class=" student "> Student Login</h1>
+
+       <form onsubmit="return false;">
+        <div class="sumit">
+          <label class="mail">Email  </label>
+         <input type="email" class="text" placeholder="Enter Email">
+       
+        </div>
+
+        <div class="sumit">
+          <label class="p">Password </label>
+          <input type="password" class="textbox" placeholder="Enter Password">
+        
+        </div>
+
+        <button id="register" type="button" class="login "  onclick="showregister()"> Register</button>
+
+        <button id="loginbutton" class="login ">Login </button>
+       </form>
+
+    </div>
+  </div>
+
+
+  <div id="uploadSection" >
+    <div id="unique" class="register_summit">
+      <form action="">
+        <div class="mk">
+          <div class="name">
+            <h1></h1>
+          <label class="mithlesh">First Name:
+            <input class="m" type="text">
+          </label>
+          </div>
+
+          <div class="name">
+          <label class="last">Last Name:
+            <input class="m" type="text">
+          </label>
+          </div>
+
+          <div class="name">
+          <label class="email">Enter Gmail:
+            <input class="m" type="text">
+          </label>
+          </div>
+
+          <div class="name">
+          <label class="email">New Password:
+            <input class="m" type="text">
+          </label>
+          </div>
+          
+          <button class="m" id="ku" type="button" > sumit</button>
+          
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <script>
+    function showregister(){
+  // Login section hide karna
+  document.getElementById("loginSection").classList.add("hidden-section");
+  document.getElementById("loginSection").classList.remove("active-section");
+
+  // Register section show karna
+  document.getElementById("uploadSection").classList.remove("hidden-section");
+  document.getElementById("uploadSection").classList.add("active-section");
+
+}
+
+    
+  </script>
+</body>
+</html>
